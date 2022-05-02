@@ -3,7 +3,7 @@ module.exports = {
     devServer: {
       proxy: {
         "^/api": {
-          target: "http://localhost/woos/public",
+          target: "http://localhost:81/woos/public",
           ws: true,
           changeOrigin: true,
         },

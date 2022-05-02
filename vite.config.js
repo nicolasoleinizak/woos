@@ -15,7 +15,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "http://localhost/woos/public",
+        target: "http://localhost:81/woos/public",
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ""),
       },
