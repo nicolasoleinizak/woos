@@ -1,12 +1,12 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
-import SiteTitle from './components/SiteTitle.vue';
+import SiteTitle from "./components/SiteTitle.vue";
 </script>
 
 <template>
   <header>
     <div class="wrapper">
-    <site-title />
+      <site-title />
       <nav>
         <RouterLink to="/products">Productos</RouterLink>
       </nav>

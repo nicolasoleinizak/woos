@@ -14,13 +14,13 @@ export default defineConfig({
   },
   server: {
     proxy: {
-      '/api': {
-        target: 'http://localhost/woos/public',
+      "/api": {
+        target: "http://localhost/woos/public",
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, '')
+        rewrite: (path) => path.replace(/^\/api/, ""),
       },
     },
   },
-  "noImplicitAny": false,
-  "allowJs": true,
+  noImplicitAny: false,
+  allowJs: true,
 });

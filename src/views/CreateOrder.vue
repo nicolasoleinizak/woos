@@ -1,15 +1,11 @@
 <template>
-    <div id="create_order">
-        <h2>Crear órden</h2>
-    </div>
+  <div id="create_order">
+    <h2>Crear órden</h2>
+  </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
