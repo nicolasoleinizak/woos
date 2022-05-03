@@ -16,6 +16,11 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 npm install
 ```
 
+### Project settings
+1- Install wordpress with woocommerce
+2- Enable rest api on woocommerce options and create access key with reading/writing permissions
+3- Config the wordpress path and api keys on the backend files
+
 ### Compile and Hot-Reload for Development
 
 ```sh
