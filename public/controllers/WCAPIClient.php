@@ -16,8 +16,8 @@ class WcApiClient{
         );
         return new WC_API_Client(
             'https://localhost/wp',
-            'ck_5894df43c9ac4c861dd909079f23fd975a427e03',
-            'cs_9923ec516890197ef82f3cc91420295d149c6f5e',
+            'ck_5ed3c08b50e9cc1f2d00742df7d7d9e45b5902c6',
+            'cs_3fa6d64e61cb0a9773e9f900621e2c79e68fc1ca',
             $options
         );
     }
